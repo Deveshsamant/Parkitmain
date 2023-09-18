@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #fafbfc;
+  width: 100%; /* Adjust the width as needed */
+  height: 10px;
+  color: rgb(15, 15, 15);
+  padding: 10px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  .book{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 800px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #0404ff; /* Background color */
+  color: #d9ff01; /* Text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  }
+  .image{
+    width: 1200px;
+    height: 550px;
+    position: relative;
+    margin-left: 200px;
+    
+    margin-top: 50px;
+  }
+  
